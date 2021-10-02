@@ -25,6 +25,7 @@
               <li><a href="#Topics1">Unfinished Topics</a></li>
               <li><a href="#Topics2">New Topics</a></li>
               <li><a href="#Summary">Agenda Summary</a></li>
+              <li><a href="#Form">Sample Form</a></li>
             </ul>
           </nav>
 
@@ -150,10 +151,109 @@
         <section id = "Form">
             <h3>
                 Sample Form
-            </h3>    
+            </h3> 
+            <fieldset>
+
+                <form>
+                        <label for="first">First and Last Name:</label><br>
+                            <input type="text" id="first" name="first"><br> 
+                </form>
+               
+                
+                <form>
+                        <label for="date">Today's Date:</label><br>
+                            <input type="date" id="date" name="date" min="2021-10-01"><br>
+                   
+                </form>    
+            
+            <p>Please select the name of this class:</p>
+
+                <form>
+                        <input type="radio" id="CSE 11" name="class" value="CSE 11">
+                            <label for="CSE 11">CSE 11</label><br>
+                        <input type="radio" id="CSE 100" name="class" value="CSE 100">
+                            <label for="CSE 100">CSE 101</label><br>
+                        <input type="radio" id="CSE 101" name="class" value="CSE 101">
+                            <label for="CSE 101">CSE 101</label><br>
+                        <input type="radio" id="CSE 110" name="class" value="CSE 110">
+                            <label for="CSE 110">CSE 110</label>    
+                </form>
+            
+            <p>Select your favorite color(s):</p>
+
+                <form>
+                        <input type="checkbox" id="color1" name="color1" value="Blue">
+                            <label for="color1"> Blue</label><br>
+                        <input type="checkbox" id="color2" name="color2" value="Red">
+                            <label for="color2"> Red</label><br>
+                        <input type="checkbox" id="color3" name="color3" value="Green">
+                            <label for="color3"> Green</label><br>
+                        <input type="checkbox" id="color4" name="color4" value="Orange">
+                            <label for="color4"> Orange</label><br>
+                        <input type="checkbox" id="color5" name="color5" value="Purple">
+                            <label for="color5"> Purple</label><br>
+                        <input type="checkbox" id="color6" name="color6" value="Yellow">
+                            <label for="color6"> Yellow</label>
+                </form>  
+            
+            <p>Describe yourself in a few sentences:</p>
+
+                <form>
+                    <textarea rows = "6" cols = "60" name = "textarea"> </textarea><br><br>
+                    
+                </form>
+            
+            
+
+            <form>
+                <label for="major">Choose your Major from the list:</label>
+                <input list="majors" name="major" id="major">
+                <datalist id="majors">
+                    <option value="Computer Engineering">
+                    <option value="Computer Science">
+                    <option value="Cognitive Science">
+                    <option value="Math - CS">
+                    <option value="Other">
+                </datalist>
+                <br><br>
+            </form>
+
+            <button type="button" >I'm a useless button!</button><br><br>
+
+            <form>
+                <label for="colleges">Select your College:</label>
+                <select name="colleges" id="colleges">
+                  <option value="options"><i>Click for drop-down</i></option>  
+                  <option value="sixth">Sixth</option>
+                  <option value="revelle">Revelle</option>
+                  <option value="seventh">Seventh</option>
+                  <option value="erc">Eleanor Roosevelt</option>
+                  <option value="marshall">Thurgood Marshall</option>
+                  <option value="warren">Earl Warren</option>
+                  <option value="muir">John Muir</option>
+                </select>
+                <br><br>
+            </form>
+
+            <form>
+                <label for="year">What Year are you?:</label>
+                <select name="year" id="year">
+                  <option value="options"><i>Click for drop-down</i></option> 
+                  <option value="first">First Year - Freshman</option>
+                  <option value="second">Second Year - Sophomore</option>
+                  <option value="third">Third Year - Junior</option>
+                  <option value="fourth">Fourth - Senior</option>
+                </select>
+                <br><br>
+            </form>
+            
+
+
+            <input type="submit" value="Submit"><br><br>  
+            </fieldset>
         </section>
 
-        <hr>
+        
         
         </main>
     
