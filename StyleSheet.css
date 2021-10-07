@@ -101,6 +101,25 @@
     flex: 1 1 auto;
   }
 
+
+  .grid-mycontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 9px;
+    background-color: #5f5a5d;
+  }
+  
+  .grid-item {
+    background-color: rgba(238, 229, 229, 0.8);
+    border: 1.5px solid rgba(0, 0, 0, 0.8);
+    padding: 19px;
+    font-size: 11px;
+    text-align: center;
+  
+  }
+
+
+
  /*This is for the short hand boxes I have created*/
  .Box{
     border: 1.2px solid rgb(84, 42, 126);
