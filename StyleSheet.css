@@ -26,6 +26,7 @@
     text-align: center;
     position: static;
     font-family: "Playfair Display";
+    width: 150ex;
   }
 
   #Form {
@@ -63,6 +64,7 @@
     text-decoration: underline;
     font-size: 150%;
     font-family: "Lucida Console", "Courier New", monospace;
+    width: 100vw;
   }
 
 
@@ -91,6 +93,7 @@
     min-width: none;
     height: 20px;
     position: relative;
+    font-size:1.3rem;
  }
 
  /* Mobile View */
