@@ -96,9 +96,8 @@
  /* Mobile View */
 @media (max-width: 770px)  {
     .col-xs-12 {
-        width: 99%;
+      width: 99%;
       float: left;
-
     }
   }
   
@@ -108,10 +107,7 @@
       width: 52%;
       float: left;
     }
-    .col-md-12 {
-      float: left;
-      width: 99%;
-    }
+    
   }
   
 
