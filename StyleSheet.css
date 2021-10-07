@@ -20,6 +20,7 @@
   footer {
     opacity: 0.6;
     text-align: center;
+    position: static;
   }
 
   #Form {
@@ -59,6 +60,21 @@
     font-family: "Lucida Console", "Courier New", monospace;
   }
 
+
+  form :active {
+    color: green;
+    background: rgb(90, 199, 127);
+
+  }
+  
+  form button {
+    background: grey;
+  }
+
+  h1:hover {
+    background-color: yellow;
+  }
+
  /*This is for the short hand boxes I have created*/
  .Box{
     border: 1.2px solid rgb(84, 42, 126);
@@ -66,9 +82,10 @@
     padding: 10px;
     margin: 10px;
     width: 170px;
-    max-width: 170px;
+    max-width: 2in;
     min-width: none;
     height: 20px;
+    position: relative;
  }
 
   
