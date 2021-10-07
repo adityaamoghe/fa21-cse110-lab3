@@ -8,7 +8,7 @@
   
   h1 {
     color: navy;
-    background-color: rgb(219, 179, 206);
+    background-color: hsl(320, 18%, 86%);
     text-align: center;
     border: 3px ;
   }
@@ -20,6 +20,7 @@
   footer {
     opacity: 0.6;
     text-align: center;
+    position: static;
   }
 
   #Form {
@@ -40,7 +41,7 @@
   .Navigation li a {
     display: block;
     padding: 6pt;
-    background-color: rgb(245, 226, 239);
+    background-color: rgb(156, 156, 150);
     text-align:justify;
   }
 
@@ -59,16 +60,32 @@
     font-family: "Lucida Console", "Courier New", monospace;
   }
 
+
+  form :active {
+    color: green;
+    background: rgb(90, 199, 127);
+
+  }
+  
+  form button {
+    background: grey;
+  }
+
+  h1:hover {
+    background-color: yellow;
+  }
+
  /*This is for the short hand boxes I have created*/
  .Box{
     border: 1.2px solid rgb(84, 42, 126);
-    background-color: lightgray;
+    background-color: #9c9c95;
     padding: 10px;
     margin: 10px;
     width: 170px;
-    max-width: 170px;
+    max-width: 2in;
     min-width: none;
     height: 20px;
+    position: relative;
  }
 
   
