@@ -1,8 +1,12 @@
 /*External Style sheet for index.html*/
 
-
+ @font-face {
+    font-family: Playfair Display;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+  }
 
   body {
+    /*font-family: Playfair Display;*/
     background-color: lightblue;
   }
   
@@ -21,6 +25,7 @@
     opacity: 0.6;
     text-align: center;
     position: static;
+    font-family: "Playfair Display";
   }
 
   #Form {
