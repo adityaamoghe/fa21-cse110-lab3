@@ -1,8 +1,55 @@
 /*External Style sheet for index.html*/
-body {
+
+
+
+  body {
     background-color: lightblue;
   }
   
   h1 {
     color: navy;
+    background-color: rgb(219, 179, 206);
+    text-align: center;
+    border: 3px ;
   }
+
+  .ems li {
+    font-size: 1.2em;
+  }
+
+  footer {
+    opacity: 0.6;
+    text-align: center;
+  }
+
+  #Form {
+    background-color: rgb(192, 192, 192);
+  }
+
+  .Navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+   .Navigation li {
+    float: left;
+  }
+  
+  .Navigation li a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(245, 226, 239);
+    text-align:justify;
+  }
+
+  .dlt{
+    word-spacing: 30px;
+  }
+
+  #VideoAudio {
+    text-align: center;
+  }
+
+  
