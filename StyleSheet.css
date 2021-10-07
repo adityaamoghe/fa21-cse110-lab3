@@ -37,6 +37,8 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
   }
   
@@ -47,7 +49,7 @@
   .Navigation li a {
     display: block;
     padding: 6pt;
-    background-color: rgb(156, 156, 150);
+    background-color: rgb(194, 194, 184);
     text-align:justify;
   }
 
@@ -85,6 +87,7 @@
   .flexbox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
   .date {
     flex: 1 1 auto;
