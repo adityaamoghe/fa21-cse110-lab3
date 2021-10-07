@@ -93,4 +93,26 @@
     position: relative;
  }
 
+ /* Mobile View */
+@media (max-width: 770px)  {
+    .col-xs-12 {
+        width: 99%;
+      float: left;
+
+    }
+  }
+  
+  /* Tablet View */
+  @media (min-width: 770px) and (max-width: 980px) {
+    .col-md-6 {
+      width: 52%;
+      float: left;
+    }
+    .col-md-12 {
+      float: left;
+      width: 99%;
+    }
+  }
+  
+
   
