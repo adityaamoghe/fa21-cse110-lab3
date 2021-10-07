@@ -1,5 +1,8 @@
 /*External Style sheet for index.html*/
-body {
+
+
+
+  body {
     background-color: lightblue;
   }
   
@@ -7,7 +10,7 @@ body {
     color: navy;
     background-color: rgb(219, 179, 206);
     text-align: center;
-    border: 3px solirgb(0, 0, 0)en;
+    border: 3px ;
   }
 
   .ems li {
@@ -39,6 +42,14 @@ body {
     padding: 8px;
     background-color: rgb(245, 226, 239);
     text-align:justify;
+  }
+
+  .dlt{
+    word-spacing: 30px;
+  }
+
+  #VideoAudio {
+    text-align: center;
   }
 
   
