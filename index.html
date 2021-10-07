@@ -9,6 +9,10 @@
         
         <link rel="icon" href="screenshots/Favicon.png" type="image/png">
     </head>
+    <style>
+        p.block {display: block;}
+        p.inline {display: inline;}
+    </style>
     <body>
         <header>
         <h1>
@@ -36,7 +40,7 @@
 
         <section> 
         <h3>
-            <u>Date:</u> <i>10/01/2021</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Meeting Location:</u> <i>Center Hall 214</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Meeting Time:</u> <i>11:00 am</i>
+            <u>Date:</u> <br><u>Meeting Location:</u> <br><u>Meeting Time:</u> 
         </h3>
         </section>
 
@@ -45,7 +49,7 @@
         <main>
 
         <section id="Meeting-Topic">
-        <h2>
+        <h2 class="Box">
             Meeting Topic:
         </h2>
         <div class="Meeting Topic">
@@ -69,7 +73,7 @@
         <hr>
 
         <section id="Attendance-List">
-            <h3>
+            <h3 class="Box">
                 Attendance List:
             </h3>
             <div class="Attendance List">
@@ -89,12 +93,12 @@
         <hr>
 
         <section id="Agenda">
-            <h3>
+            <h3 class="Box">
                 Agenda:
             </h3>
             <div class="Agenda">
                 <p>
-                    Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting industry. Lorem Ipsum has been the <i>industry's standard dummy text</i> ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting industry. Lorem Ipsum has been the <i>industry's standard dummy text</i> ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <p class="block">Hello World!</p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
             
@@ -111,7 +115,7 @@
         <hr>   
         
         <section id="Topics1">
-            <h4>
+            <h4 class="Box">
                 Unfinished Topics:
             </h4>
             <div class="Unfinished Topics">
@@ -129,12 +133,12 @@
         </section>
         
         <section id="Topics2">
-            <h4>
+            <h4 class="Box">
                 New Topics:
             </h4>
             <div class="New Topics">
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. <p class="inline">Hello World!</p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
 
@@ -149,7 +153,7 @@
         <hr>
 
         <section id="Summary">
-            <h3>
+            <h3 class="Box">
                 Agenda Summary:
             </h3>
             <div class="Agenda Summary">
@@ -168,7 +172,7 @@
 
         <hr>
 
-        <h3>
+        <h3 id="FormHeader">
             Sample Form
         </h3> 
 
@@ -278,9 +282,11 @@
         <hr>
 
         <section id=W3_Validation>
-            <h3>Here is the W3 validation for this page!</h3>
+            <h3 style="text-align:center">Here is the W3 validation for this page!</h3>
+        </section>
+
+        <section id="VideoAudio">
             <img src="screenshots/W3_Validation.png" width="300"  alt="W3">
-        
         </section>
 
         

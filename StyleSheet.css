@@ -39,7 +39,7 @@
   
   .Navigation li a {
     display: block;
-    padding: 8px;
+    padding: 6pt;
     background-color: rgb(245, 226, 239);
     text-align:justify;
   }
@@ -51,5 +51,24 @@
   #VideoAudio {
     text-align: center;
   }
+
+  #FormHeader {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 150%;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+ /*This is for the short hand boxes I have created*/
+ .Box{
+    border: 1.2px solid rgb(84, 42, 126);
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    width: 170px;
+    max-width: 170px;
+    min-width: none;
+    height: 20px;
+ }
 
   
