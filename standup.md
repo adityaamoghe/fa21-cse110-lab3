@@ -1,2 +1,13 @@
 # Standup Sheet
-## Date: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Location:
+## Date: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Location:
+
+### What did you do yesterday?
+
+- Name 1: _____________________________
+- Name 2: _____________________________
+- Name 3: _____________________________
+- Name 4: _____________________________
+- Name 5: _____________________________
+- Name 6: _____________________________
+- Name 7: _____________________________
+- Name 8: _____________________________
