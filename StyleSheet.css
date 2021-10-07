@@ -8,6 +8,7 @@
   body {
     /*font-family: Playfair Display;*/
     background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   h1 {
@@ -35,8 +36,10 @@
 
   .Navigation ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0,0,0,0;
+    padding: 0,0,0,0;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
   }
   
@@ -47,7 +50,7 @@
   .Navigation li a {
     display: block;
     padding: 6pt;
-    background-color: rgb(156, 156, 150);
+    background-color: rgb(194, 194, 184);
     text-align:justify;
   }
 
@@ -85,25 +88,65 @@
   .flexbox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
   .date {
     flex: 1 1 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .location {
     flex: 1 1 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .time {
     flex: 1 1 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+
+  .grid-mycontainer {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 2px;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    /*padding: 9px;*/
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #5f5a5d;
+  }
+  
+  .grid-item {
+    background-color: rgba(238, 229, 229, 0.8);
+    border: 1.5px solid #000000cc;
+    padding: 19px;
+    font-size: 19px;
+    text-align: center;
+  
+  }
+
+
 
  /*This is for the short hand boxes I have created*/
  .Box{
-    border: 1.2px solid rgb(84, 42, 126);
+    border: 1px;
+    border-top-style:dotted;
+    border-bottom-style:dotted;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-color:rgb(84, 42, 126);
+    border-radius: 0.5em;
+
     background-color: #9c9c95;
     padding: 10px;
-    margin: 10px;
+    /*margin: 1px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 1px;
+    margin-left: 1px;
     width: 170px;
     max-width: 2in;
     min-width: none;
