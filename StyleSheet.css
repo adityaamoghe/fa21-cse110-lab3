@@ -82,6 +82,22 @@
     background-color: yellow;
   }
 
+  .flexbox {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .date {
+    flex: 1 1 auto;
+  }
+
+  .location {
+    flex: 1 1 auto;
+  }
+
+  .time {
+    flex: 1 1 auto;
+  }
+
  /*This is for the short hand boxes I have created*/
  .Box{
     border: 1.2px solid rgb(84, 42, 126);
