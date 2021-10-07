@@ -8,7 +8,7 @@
   
   h1 {
     color: navy;
-    background-color: rgb(219, 179, 206);
+    background-color: hsl(320, 18%, 86%);
     text-align: center;
     border: 3px ;
   }
@@ -40,7 +40,7 @@
   .Navigation li a {
     display: block;
     padding: 6pt;
-    background-color: rgb(245, 226, 239);
+    background-color: rgb(156, 156, 150);
     text-align:justify;
   }
 
@@ -62,7 +62,7 @@
  /*This is for the short hand boxes I have created*/
  .Box{
     border: 1.2px solid rgb(84, 42, 126);
-    background-color: lightgray;
+    background-color: #9c9c95;
     padding: 10px;
     margin: 10px;
     width: 170px;
