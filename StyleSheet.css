@@ -1,1 +1,8 @@
 /*External Style sheet for index.html*/
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+  }
