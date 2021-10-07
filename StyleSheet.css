@@ -26,6 +26,7 @@
     text-align: center;
     position: static;
     font-family: "Playfair Display";
+    width: 150ex;
   }
 
   #Form {
@@ -63,6 +64,7 @@
     text-decoration: underline;
     font-size: 150%;
     font-family: "Lucida Console", "Courier New", monospace;
+    width: 100vw;
   }
 
 
@@ -80,6 +82,22 @@
     background-color: yellow;
   }
 
+  .flexbox {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .date {
+    flex: 1 1 auto;
+  }
+
+  .location {
+    flex: 1 1 auto;
+  }
+
+  .time {
+    flex: 1 1 auto;
+  }
+
  /*This is for the short hand boxes I have created*/
  .Box{
     border: 1.2px solid rgb(84, 42, 126);
@@ -91,6 +109,7 @@
     min-width: none;
     height: 20px;
     position: relative;
+    font-size:1.3rem;
  }
 
  /* Mobile View */
