@@ -68,8 +68,6 @@
    }
 
 
-
-
   /*Class selector - Nav bar li a*/
   .Navigation li a {
     display: block;
@@ -162,7 +160,34 @@
   
   }
 
+  /*Descendent Combinator Example*/
+  div ul {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
 
+  /*Child Combinator Example*/
+  section > audio {
+      background-color: pink;
+  }
+
+  /*Adjacent sibling combinator Example*/
+  section + hr {
+    background-color: black;
+    border: 1px solid #000000cc;
+    padding: 0.5px;
+    
+  }
+
+  /*General sibling combinator*/
+  hr ~ h3 {
+    background-color: rgb(110, 152, 168);
+  }
+
+  /*Combining Two Selectors*/
+  div.flexbox {
+    background-color: rgb(110, 152, 168);
+    padding: 10px;
+  }
 
  /*This is for the short hand boxes I have created*/
  .Box{
@@ -176,11 +201,12 @@
 
     background-color: #9c9c95;
     padding: 10px;
-    /*margin: 1px;*/
+
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 1px;
     margin-left: 1px;
+    
     width: 170px;
     max-width: 2in;
     min-width: none;
