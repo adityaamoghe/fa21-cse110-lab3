@@ -60,45 +60,14 @@
       color: blue;
    }
 
-   /*Attribute Selector*/
-   a[href="#Meeting-Topic"] {
+   /*Attribute Selector with Selector List*/
+   a[href="#Meeting-Topic"] , a[href="#Attendance-List"], a[href="#Agenda"] , 
+   a[href="#Topics1"] , a[href="#Topics2"] , a[href="#Summary"] , a[href="#Form"] ,
+    a[href="#W3_Validation"]  {
     color: rgb(13, 5, 32);
    }
 
-   /*Attribute Selector*/
-   a[href="#Attendance-List"] {
-    color: rgb(13, 5, 32);
-   }
 
-   /*Attribute Selector*/
-   a[href="#Agenda"] {
-    color: rgb(13, 5, 32);
-   }
-
-   /*Attribute Selector*/
-   a[href="#Topics1"] {
-    color: rgb(13, 5, 32);
-   }
-
-   /*Attribute Selector*/
-   a[href="#Topics2"] {
-    color: rgb(13, 5, 32);
-   }
-
-   /*Attribute Selector*/
-   a[href="#Summary"] {
-    color: rgb(13, 5, 32);
-   }
-
-   /*Attribute Selector*/
-   a[href="#Form"] {
-    color: rgb(13, 5, 32);
-   }
-
-   /*Attribute Selector*/
-   a[href="#W3_Validation"] {
-    color: rgb(13, 5, 32);
-   }
 
 
   /*Class selector - Nav bar li a*/
