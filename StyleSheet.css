@@ -55,6 +55,52 @@
     float: left;
   }
   
+  /*Universal Selector for any Latin words I chose to include.*/
+  *[lang=la]{
+      color: blue;
+   }
+
+   /*Attribute Selector*/
+   a[href="#Meeting-Topic"] {
+    color: rgb(13, 5, 32);
+   }
+
+   /*Attribute Selector*/
+   a[href="#Attendance-List"] {
+    color: rgb(13, 5, 32);
+   }
+
+   /*Attribute Selector*/
+   a[href="#Agenda"] {
+    color: rgb(13, 5, 32);
+   }
+
+   /*Attribute Selector*/
+   a[href="#Topics1"] {
+    color: rgb(13, 5, 32);
+   }
+
+   /*Attribute Selector*/
+   a[href="#Topics2"] {
+    color: rgb(13, 5, 32);
+   }
+
+   /*Attribute Selector*/
+   a[href="#Summary"] {
+    color: rgb(13, 5, 32);
+   }
+
+   /*Attribute Selector*/
+   a[href="#Form"] {
+    color: rgb(13, 5, 32);
+   }
+
+   /*Attribute Selector*/
+   a[href="#W3_Validation"] {
+    color: rgb(13, 5, 32);
+   }
+
+
   /*Class selector - Nav bar li a*/
   .Navigation li a {
     display: block;
@@ -137,6 +183,7 @@
     background-color: #5f5a5d;
   }
   
+  /*Class Container for items inside grid*/
   .grid-item {
     background-color: rgba(238, 229, 229, 0.8);
     border: 1.5px solid #000000cc;
